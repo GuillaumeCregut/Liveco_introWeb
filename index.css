@@ -1,0 +1,45 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+nav-container{
+    width: 100%;
+    display: flex;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.global-container{
+    display: flex;
+    margin-top: 5vh;
+}
+
+section {
+    width: 50%;
+    background-color: blue;
+    margin-left: 10px;
+    padding : 20px;
+}
+
+article{
+    height: 20vh;
+}
+
+.article-1 {
+    background-color: red;
+}
+
+
